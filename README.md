@@ -25,20 +25,22 @@ Prend une URL longue et retourne un code court.
 
 **Requête :**
 
+```
 json
 POST /shorten
 {
   "url": "https://example.com"
 }
-
+```
 
 **Réponse :**
 
+```
 json
 {
   "short": "abc123"
 }
-
+```
 
 ---
 
